@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LICTChatApp</string>
+    <string name="start_message">Welcome To LICT \n \t \t \t \t Chat App</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

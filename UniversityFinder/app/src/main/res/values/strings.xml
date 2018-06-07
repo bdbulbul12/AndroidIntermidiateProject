@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Student Management App</string>
+
+    <array name="generes">
+        <item>CSE</item>
+        <item>BBA</item>
+        <item>EEE</item>
+        <item>ICT</item>
+    </array>
+
+    <array name="session">
+        <item>2013-2014</item>
+        <item>2014-2015</item>
+        <item>2015-2016</item>
+        <item>2016-2017</item>
+        <item>2017-2018</item>
+        <item>2012-2013</item>
+        <item>2011-2012</item>
+        <item>2010-2011</item>
+        <item>2009-2010</item>
+        <item>2008-2009</item>
+        <item>2007-2008</item>
+        <item>2006-2007</item>
+    </array>
+
+    <array name="semester">
+        <item>First Semester</item>
+        <item>Second Semester</item>
+        <item>Third Semester</item>
+        <item>Fourth Semester</item>
+        <item>Fifth Semester</item>
+        <item>Six Semester</item>
+        <item>Seven Semester</item>
+        <item>Eight Semester</item>
+    </array>
+</resources>

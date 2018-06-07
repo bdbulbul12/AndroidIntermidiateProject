@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">Virtual Learning</string>
+    <string name="pass_hint">Password...</string>
+    <string name="email_hint">Your Email...</string>
+    <string name="login_logo_desc">Logo Login Page</string>
+    <string name="login_btn_text">Login to account</string>
+    <string name="login_reg_btn_text">Need a new Account?</string>
+    <string name="action_search_text">Search</string>
+    <string name="action_setting_text">Rate the app </string>
+    <string name="action_logout_text">Logout</string>
+    <string name="reg_btn_text">Create new Account</string>
+    <string name="reg_login_text">Already have an Account?</string>
+    <string name="reg_pass_text">Password...</string>
+    <string name="reg_confirm_pass_text">Confirm Password...</string>
+    <string name="setup_name_hint">Your Name...</string>
+    <string name="setup_save_btn">Save Account Settings</string>
+    <string name="setup_name_hint_text">Your Name ...</string>
+    <string name="setup_btn_name_text">Save Account Settings</string>
+    <string name="post_desc_hint">Add Description ...</string>
+    <string name="new_post_btn_hint">Post Blog</string>
+
+
+    <string-array name="department">
+        <item>CSE</item>
+        <item>ICT</item>
+        <item>EEE</item>
+        <item>ITE</item>
+        <item>BBA</item>
+        <item>ECE</item>
+        <item>ECONOMICS</item>
+    </string-array>
+
+    <string-array name="CSE">
+        <item>C_Programming</item>
+        <item>Computer_Fundamental</item>
+        <item>Database</item>
+        <item>Java</item>
+        <item>Algorithm</item>
+    </string-array>
+
+    <string-array name="ICT">
+        <item>C_Plus</item>
+        <item>Oracle</item>
+        <item>Networking</item>
+        <item>Android</item>
+        <item>Distributed</item>
+    </string-array>
+    <string-array name="EEE">
+        <item>Physics</item>
+        <item>Electrical</item>
+        <item>Electronics</item>
+        <item>ECommerce</item>
+        <item>DigitalLogic</item>
+    </string-array>
+
+    <string-array name="ITE">
+        <item>Operating_System</item>
+        <item>Web_Engineering</item>
+        <item>Graphics</item>
+        <item>IT</item>
+        <item>Geometry</item>
+    </string-array>
+
+    <string-array name="BBA">
+        <item>BCommunication</item>
+        <item>BMath</item>
+        <item>DataStructure</item>
+        <item>Accounting</item>
+        <item>Finance</item>
+
+    </string-array>
+
+    <string-array name="ECE">
+        <item>Telecommunication</item>
+        <item>Engineering_Math</item>
+        <item>Compiler_Design</item>
+        <item>Applied_Math</item>
+        <item>Applied_Physics</item>
+    </string-array>
+
+
+    <string-array name="ECONOMICS">
+        <item>Economics</item>
+        <item>History</item>
+        <item>Political_Science</item>
+        <item>Basic_Economics</item>
+        <item>Principal_Of_Economics</item>
+    </string-array>
+
+    <string-array name="File_TYPE">
+        <item>Select File Type</item>
+        <item>ppt</item>
+        <item>videos</item>
+        <item>tutorials</item>
+        <item>others</item>
+
+
+    </string-array>
+</resources>

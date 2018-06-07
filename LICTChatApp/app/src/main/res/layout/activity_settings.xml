@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.example.bulbul.lictchatapp.SettingsActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/settings_image"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="39dp"
+        android:src="@drawable/default_avater"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/setting_display_name"
+        android:textSize="35dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/settings_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp"
+        android:text="Display Name"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/setting_display_status"
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/setting_display_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:text="Hi there,I am using LICT chat app" />
+
+    <Button
+        android:id="@+id/setting_change_image_btn"
+        android:textColor="@color/colorPrimary"
+        android:backgroundTint="@android:color/white"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/setting_display_status"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="66dp"
+        android:text="Change Image" />
+
+    <Button
+        android:id="@+id/setting_change_status_btn"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@color/colorAccent"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/setting_change_image_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:text="Change Status" />
+
+
+</RelativeLayout>
